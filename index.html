@@ -4,6 +4,13 @@
   <title>ItsNexi_ - Links</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
     /* Animazione hover generale per tutti i bottoni */
     a {
       transition: 0.3s;
@@ -23,9 +30,16 @@
     .youtube:hover {
       background: linear-gradient(to right, #FFFFFF, #FF0000);
     }
+
+    /* Hover dinamico per Discord */
+    .discord:hover {
+      background-color: #5b6eae; /* leggermente più scuro per hover */
+      transform: scale(1.05);
+      filter: brightness(1.2);
+    }
   </style>
 </head>
-<body style="background-color:black; color:white; text-align:center; font-family:Arial;">
+<body>
 
   <h1>ItsNexi_</h1>
 
@@ -65,7 +79,7 @@
             background: linear-gradient(to right, #FF0000, #FFFFFF);
             padding:10px 20px; border-radius:10px; display:inline-block; margin:5px;
             border: 2px solid white; text-shadow: 1px 1px 2px black, -1px -1px 2px black;">
-    ▶️ YouTube
+   ▶️ YouTube
   </a>
 
   <br>
@@ -76,6 +90,17 @@
             padding:10px 20px; border-radius:10px; display:inline-block; margin:5px;
             border: 2px solid white; text-shadow: 1px 1px 2px black, -1px -1px 2px black;">
     🎥 Twitch
+  </a>
+
+  <br>
+
+  <!-- Discord -->
+  <a href="https://discord.gg/x4jRWDhB" target="_blank"
+     class="discord"
+     style="color:white; text-decoration:none; background-color:#7289DA; 
+            padding:10px 20px; border-radius:10px; display:inline-block; margin:5px;
+            border: 2px solid white; text-shadow: 1px 1px 2px black, -1px -1px 2px black;">
+    💬 Discord
   </a>
 
 </body>
